@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { OverlayModule } from '@angular/cdk/overlay';
-import {CdkAccordionModule} from '@angular/cdk/accordion';
-import {DragDropModule} from '@angular/cdk/drag-drop';
-import {DialogModule} from '@angular/cdk/dialog';
+import { CdkAccordionModule } from '@angular/cdk/accordion';
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { DialogModule } from '@angular/cdk/dialog';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -36,7 +37,8 @@ import { ScrollComponent } from './pages/scroll/scroll.component';
     CdkAccordionModule,
     DragDropModule,
     DialogModule,
-    HttpClientModule
+    HttpClientModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
