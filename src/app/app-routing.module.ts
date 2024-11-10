@@ -11,7 +11,7 @@ import { TableComponent } from './pages/table/table.component';
 
 const routes: Routes = [
   {
-    path: 'login',
+    path: '',
     component: LoginComponent
   },
   {
